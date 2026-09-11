@@ -1,7 +1,7 @@
 ;; test/du_test.cljk -- build the command and compare it with /usr/bin/du on
 ;; stdout, stderr and exit status, over a tree of fixtures this file creates.
 ;;
-;;   AMU_HOME=<amu checkout> nbb test/du_test.cljk
+;;   AMU_HOME=<amu checkout> kbb --backend sci test/du_test.cljk
 ;;
 ;; Exit 0 when every case matches, 1 on a difference, 2 when it could not run.
 ;;
