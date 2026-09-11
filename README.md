@@ -10,7 +10,7 @@ Thirty-four cases agree with `/usr/bin/du` on stdout, stderr and exit status
 over a tree this repository's test builds. Run them with:
 
 ```sh
-AMU_HOME=<amu checkout> nbb test/du_test.cljk
+AMU_HOME=<amu checkout> kbb --backend sci test/du_test.cljk
 ```
 
 ## What `du` reports is blocks, and blocks are not bytes
